@@ -52,6 +52,10 @@ function App() {
           </footer>
         </div>
       </div>
+      <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Crab-Prog">Ophélie Coudert</a>.
+  </div>
     </body>
   );
 }

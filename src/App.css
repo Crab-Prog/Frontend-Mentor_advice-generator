@@ -19,6 +19,8 @@ body{
     background-color: var(--background-color);
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .full-card{
     background-color: var(--card-color);
@@ -57,7 +59,9 @@ blockquote{
     padding-bottom: 9vh;
     width: 80%;
 }
-
+.attribution{
+    color: var(--p-color);
+}
 @media screen and (min-width : 768px) {
 .full-card{
     width: 40vw;
