@@ -1,0 +1,7 @@
+h1{
+    color: var(--title-color);
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    padding-top: 4vh;
+}

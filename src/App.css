@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;800&display=swap');
+
+:root {
+    --font-family: 'Manrope', sans-serif;
+    --font-weight: 800;
+    --font-size-p: 1.5rem;
+    --p-color: hsl(193, 38%, 86%);
+    --title-color: hsl(150, 100%, 66%);
+    --color: hsl(217, 19%, 38%);
+    --card-color: hsl(217, 19%, 24%);
+    --background-color: hsl(218, 23%, 16%);
+}
+
+*{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+}
+body{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+}
+.full-card{
+    background-color: var(--card-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20vh;
+}
+blockquote{
+    font-size: var(--font-size-p);
+    color: var(--p-color);
+    text-align: center;
+    padding-bottom: 1vh;
+}
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    max-width: 8vw;
+    background-color: var(--title-color);
+    padding: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 7vh;
+}
+
+.btn:hover{
+    background-color: var(--title-color);
+    box-shadow: 1px 1px 25px var(--title-color);
+    cursor: pointer;
+}
+.divider{
+    padding-bottom: 9vh;
+    width: 80%;
+}
+
+@media screen and (min-width : 768px) {
+.full-card{
+    width: 40vw;
+}
+
+}
