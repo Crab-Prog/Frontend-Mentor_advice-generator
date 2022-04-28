@@ -1,4 +1,4 @@
-##3rd Frontend Mentor challenge
+## 3rd Frontend Mentor challenge
 
 I used React to develop this card, the exercice was to consume an API, practise useEffect, and useState.
 
