@@ -33,7 +33,10 @@ function App() {
       });
 
   }
-
+  const getAll = () => {
+    getAdvices();
+    getAdvicesId();
+ }
   return (
     <body>
       <div className="full-card">
@@ -47,14 +50,14 @@ function App() {
           </main>
 
           <footer className="footer-card">
-            <img src={divider} alt="" className="divider"/>
-            <img src={dice} alt="" className="btn" onClick={getAdvices}/>
+            <img src={divider} alt="" className="divider" />
+            <img src={dice} alt="" className="btn" onClick={getAll}/>
           </footer>
         </div>
       </div>
       <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/Crab-Prog">Ophélie Coudert</a>.
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Crab-Prog">Ophélie Coudert</a>.</p>
   </div>
     </body>
   );
